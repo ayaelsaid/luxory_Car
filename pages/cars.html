@@ -1,145 +1,214 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: purple;
-    }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cars</title>
+    <link rel="stylesheet" href="cars.css">
+</head>
+<body>
+    <div class="name">
+        <header>
+            <div class="inline">
+                <img src="pic/Untitled2.png" alt="logo">
+                luxury car
+                <a target="_blank" href="Login_now.html" class="link">LOG IN</a>
+                <a target="_blank" href="Sign_now.html" class="link">SIGN UP</a>
+            </div>
+            <div class="p1">drive it, live luxury</div>
 
-.name {
-
-    background-color: black;
-    height: fit-content;
-    width: 100%;
-    text-align: start;
-    text-transform: capitalize;
-    color: white;
-
-}
-.inline {
-    text-align: start;
-    font-size: 10em; 
-}
-
-
-.p1 {
-    font-size: 2em;
-    text-align: start;
-    margin-left: 20px;
-
-}
-.link {
-    background-color: purple;
-    border: 1px;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 10px;
-    color: white;
-    font-size: .1em;
-    text-decoration: none;
-
-}
-.filtter {
-    padding: 20px;
-    margin: 0;
-    text-align: center;
- }
- .link1 {
-    background-color: rgb(255, 255, 255);
-    color: black;
-
-
- }
- .link3 {
-    background-color: purple;
-    color: white;
- }
-.link1, .link3{
-    font-size: 2em;
-    border: 1px solid black;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 10px 60px; 
-    margin: 10px 20px;
-    display: inline-block; 
-    text-decoration: none;
-    align-items: center;
-}
-.cars {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-
-.cars article {
-    background-color: white;
-    width: 500px;
-    border: 4px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
-margin: 30px;
-}
-h1 {
-text-align: center;
-font-size: 30px;
-font-style: oblique;
-border-bottom: 1px solid black;
-padding-bottom: 5px;
-margin: 20px;
-
-}
-.lam img {
-    margin: 5px;
-    width: 480px;
-    height: 300px;
-}
-
-.price 
-{
-    
-    padding-bottom: 5px;
-    border-bottom: 1px solid black;
-    margin: 20px;
-
-}
-
-
-.day, .month, .year{
-    width: 70px;
-    height: 60px;
-    border: 4px solid purple;
-    border-radius: 50%;
-    text-align: center;
-    display: inline-block;
-    margin-left: 50px;
-    margin-right: 20px;
-
-}
-.per {
-    line-height: 2em;
-}
-p {
-    margin-left: 5px;
-}
-.search {
-    border: 1px solid black;
-    text-align: end;
-    width: 1000px;
-    height: 60px;
-    margin-left: 240px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: white;
-
-}
-
-button {
-    background-color: purple;
-padding: 10px 30px;
-margin: 5px;
-font-size: 20px;
-color: whit;
-}
-.sec1 {
-    background-color: black;
-}
-
+        </header>
+    </div>
+    <section class="sec1">
+    <div class="filtter">
+        <a target="_blank" href="home.html" class="link1">Home</a>
+        <a target="_blank" href="cars.html" class="link1">Rented Cars</a>
+        <a target="_blank" href="Reservation.html" class="link1">Reservation</a>
+        <a target="_blank" href="rule.html" class="link1">Conditions</a>
+        <a target="_blank" href="about.html" class="link1">About Us</a>
+        <a target="_blank" href="contact.html" class="link1">Contact Us</a>
+        <a target="_blank" href="phone.html" class="link1">Call Us</a>
+    </div>
+    </section>
+    <section class="search">
+       <div ><button onclick="search">Search</button></div>
+    </section>
+    <section class="cars">
+        <div class="Lamborghini Aventador SVJ">
+            <article>
+                <div class="lam"><img src="pic/lambor.jpg" alt="Lamborghini Aventador SVJ"></div>
+                <h1>Lamborghini Aventador SVJ</h1>
+                <div class="price">
+                <div class="day">
+                    <h3>$2,500</h3>
+                    <div class="per"><h4>Per Day</h4></div>
+                </div>
+                <div class="month"><h3>$70,000</h3>
+                    <div class="per"><h4>Per Mon.</h4></div>
+                </div>
+                <div class="year"><h3>$800,000</h3>
+                    <div class="per"><h4>Per year</h4></div>
+                </div>
+                </div>
+                <div class="options">
+                    <p>The Lamborghini Aventador SVJ is a masterpiece of performance and design, featuring a 6.5L V12 engine that produces 759 horsepower, allowing it to sprint from 0 to 60 mph in just 2.8 seconds.</p>                
+                </div>
+                <a target="_blank" href="reserve.html" class="link3">Reserve</a>
+            </article>
+        </div>
+        <div class="Ferrari 812 Superfast">
+            <article>
+                <div class="lam"><img src="pic/ferrari-812-.png" alt="Ferrari 812 Superfast"></div>
+                <h1>Ferrari 812 Superfast</h1>
+                <div class="price">
+                    <div class="day">
+                        <h3>$2,000</h3>
+                        <div class="per"><h4>Per Day</h4></div>
+                    </div>
+                    <div class="month"><h3>$56,000</h3>
+                        <div class="per"><h4>Per Mon.</h4></div>
+                    </div>
+                    <div class="year"><h3>$600,000</h3>
+                        <div class="per"><h4>Per year</h4></div>
+                    </div>
+                </div>
+                <div class="options">
+                    <p>The Ferrari 812 Superfast is a grand tourer with a 6.5L V12 engine, delivering 789 horsepower. It combines luxurious comfort with thrilling performance, making it an ideal choice for long drives.</p> 
+                </div>
+                <a target="_blank" href="reserve.html" class="link3">Reserve</a>
+            </article>
+        </div>
+        <div class="Rolls-Royce Phantom">
+            <article>
+                <div class="lam"><img src="pic/phantom3.png" alt="Rolls-Royce Phantom"></div>
+                <h1>Rolls-Royce Phantom</h1>
+                <div class="price">
+                <div class="day">
+                    <h3>$3,000</h3>
+                    <div class="per"><h4>Per Day</h4></div>
+                </div>
+                <div class="month"><h3>$85,000</h3>
+                    <div class="per"><h4>Per Mon.</h4></div>
+                </div>
+                <div class="year"><h3>$950,000</h3>
+                    <div class="per"><h4>Per year</h4></div>
+                </div>
+                </div>
+                <div class="options">
+                    <p>The Rolls-Royce Phantom epitomizes luxury with its opulent interior, smooth ride, and powerful V12 engine. It's the perfect choice for those who demand the best in comfort and refinement.</p> 
+                </div>
+                <a target="_blank" href="reserve.html" class="link3">Reserve</a>
+            </article>
+        </div>
+        <div class="Bentley Continental GT">
+            <article>
+                <div class="lam"><img src="pic/blentyjpg.jpg" alt="Bentley Continental GT"></div>
+                <h1>Bentley Continental GT</h1>
+                <div class="price">
+                    <div class="day">
+                        <h3>$1,800</h3>
+                        <div class="per"><h4>Per Day</h4></div>
+                    </div>
+                    <div class="month"><h3>$50,000</h3>
+                        <div class="per"><h4>Per Mon.</h4></div>
+                    </div>
+                    <div class="year"><h3>$550,000</h3>
+                        <div class="per"><h4>Per year</h4></div>
+                    </div>
+                </div>
+                <div class="options">
+                    <p>The Bentley Continental GT is a luxurious grand tourer with a powerful W12 engine. It combines exquisite craftsmanship with impressive performance, making it perfect for both city driving and long trips.</p> 
+                </div>
+                <a target="_blank" href="reserve.html" class="link3">Reserve</a>
+            </article>
+        </div>
+        <div class="Porsche 911 Turbo S">
+            <article>
+                <div class="lam"><img src="pic/porsches.jpg" alt="Porsche 911 Turbo S"></div>
+                <h1>Porsche 911 Turbo S</h1>
+                <div class="price">
+                    <div class="day">
+                        <h3>$2,200</h3>
+                        <div class="per"><h4>Per Day</h4></div>
+                    </div>
+                    <div class="month"><h3>$60,000</h3>
+                        <div class="per"><h4>Per Mon.</h4></div>
+                    </div>
+                    <div class="year"><h3>$650,000</h3>
+                        <div class="per"><h4>Per year</h4></div>
+                    </div>
+                </div>
+                <div class="options">
+                    <p>The Porsche 911 Turbo S is a high-performance sports car with a twin-turbocharged flat-six engine, delivering exceptional acceleration and handling. It's a perfect blend of luxury and performance.</p> 
+                </div>
+                <a target="_blank" href="reserve.html" class="link3">Reserve</a>
+            </article>
+        </div>
+        <div class="Aston Martin DBS Superleggera">
+            <article>
+                <div class="lam"><img src="pic/Astonpng.png" alt="Aston Martin DBS Superleggera"></div>
+                <h1>Aston Martin DBS Superleggera</h1>
+                <div class="price">
+                    <div class="day">
+                        <h3>$2,300</h3>
+                        <div class="per"><h4>Per Day</h4></div>
+                    </div>
+                    <div class="month"><h3>$65,000</h3>
+                        <div class="per"><h4>Per Mon.</h4></div>
+                    </div>
+                    <div class="year"><h3>$720,000</h3>
+                        <div class="per"><h4>Per year</h4></div>
+                    </div>
+                </div>
+                <div class="options">
+                    <p>The Aston Martin DBS Superleggera is a grand tourer with a 5.2L twin-turbo V12 engine, producing 715 horsepower. It's a perfect combination of sophisticated design and thrilling performance.</p> 
+                </div>
+                <a target="_blank" href="reserve.html" class="link3">Reserve</a>
+            </article>
+        </div>
+        <div class="Lexus LFA">
+            <article>
+                <div class="lam"><img src="pic/Lexus.png" alt="Lexus LFA"></div>
+                <h1>Lexus LFA</h1>
+                <div class="price">
+                    <div class="day">
+                        <h3>$2,800</h3>
+                        <div class="per"><h4>Per Day</h4></div>
+                    </div>
+                    <div class="month"><h3>$75,000</h3>
+                        <div class="per"><h4>Per Mon.</h4></div>
+                    </div>
+                    <div class="year"><h3>$850,000</h3>
+                        <div class="per"><h4>Per year</h4></div>
+                    </div>
+                </div>
+                <div class="options">
+                    <p>The Lexus LFA is a limited-production supercar known for its high-revving V10 engine and exceptional performance. Its unique design and advanced engineering make it a standout choice for enthusiasts.</p> 
+                </div>
+                <a target="_blank" href="reserve.html" class="link3">Reserve</a>
+            </article>
+        </div> 
+        <div class="McLaren 720S">
+            <article>
+                <div class="lam"><img src="pic/Mclaren.png" alt="McLaren 720S"></div>
+                <h1>McLaren 720S</h1>
+                <div class="price">
+                    <div class="day">
+                        <h3>$2,600</h3>
+                        <div class="per"><h4>Per Day</h4></div>
+                    </div>
+                    <div class="month"><h3>$68,000</h3>
+                        <div class="per"><h4>Per Mon.</h4></div>
+                    </div>
+                    <div class="year"><h3>$780,000</h3>
+                        <div class="per"><h4>Per year</h></div>
+                    </div>
+                </div>
+                <div class="options">
+                    <p>The McLaren 720S is a high-performance supercar with a 4.0L twin-turbo V8 engine, delivering 710 horsepower. Its advanced aerodynamics and lightweight construction make it incredibly fast and agile.</p> 
+                </div>
+                <a target="_blank" href="reserve.html" class="link3">Reserve</a>
+            </article>
+        </div> 
+    </section>
+</body>
+</html>
